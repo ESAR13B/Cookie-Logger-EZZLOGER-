@@ -4,7 +4,7 @@ This is a roblox account recovery tool that helps you get your roblox account ba
 # STAR REPO PLS
 
 Rich Gui
-![](https://cdn.discordapp.com/attachments/1094355060353405091/1099432164103299214/image.png)
+![](https://cdn.discordapp.com/attachments/1097588386602176632/1097695887997800539/image.png)
 
 ------------   
 # Roblox account Recovery                                                 
